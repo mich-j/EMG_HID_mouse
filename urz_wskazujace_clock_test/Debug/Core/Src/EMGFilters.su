@@ -1,0 +1,6 @@
+EMGFilters.cpp:76:10:void FILTER_2nd::init(FILTER_TYPE, int)	40	static
+EMGFilters.cpp:110:11:float FILTER_2nd::update(float)	24	static
+EMGFilters.cpp:130:10:void FILTER_4th::init(int, int)	48	static
+EMGFilters.cpp:166:11:float FILTER_4th::update(float)	32	static
+EMGFilters.cpp:189:6:void EMGFilters::init(SAMPLE_FREQUENCY, NOTCH_FREQUENCY, bool, bool, bool)	16	static
+EMGFilters.cpp:211:5:int EMGFilters::update(int)	24	static
