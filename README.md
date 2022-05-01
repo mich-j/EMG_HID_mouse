@@ -8,6 +8,8 @@ Main goal was to design a pointing device for people with motor disabilities of 
 - Left mouse button click is triggered by frown, by EMG measurement
 - Head gestures allow to use right mouse button and scroll
 
+<zdjęcie modelu>
+
 ## Hardware
 - Works under control of STM32 microcontroller
 - Acts as a HID device after plugging into USB port
