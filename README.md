@@ -14,4 +14,16 @@ comfort of use should be improved.
 - Left mouse button click is triggered by frown, by EMG measurement
 - Head gestures allow to use right mouse button and scroll
 
+## Hardware
+- Works under control of STM32 microcontroller
+- Acts as a HID device after plugging into USB port
+- BNO055 IMU sensor for measuring head rotations
+
+## Software
+- I2C bus used to communicate between IMU and MCU
+- Timers utilized for program flow control (no delays)
+- DMA feature used for efficient ADC conversion
+- Raw EMG signal processed using Root Mean Square method
+- FPU coprocessor improves floating point calculations
+
 (uwaga zmyłka) w nazwie projektu jest człon 'test', ale jest to ostateczna wersja
