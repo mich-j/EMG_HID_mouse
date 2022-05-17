@@ -8,7 +8,7 @@ Main goal was to design a pointing device for people with motor disabilities of 
 - Left mouse button click is triggered by muscle contraction, readen by EMG sensor
 - Head gestures allow to use right mouse button and scroll
 
-<zdjęcie modelu>
+<img src="images/model.png" alt="3D CAD model" width="700"/>
 
 ## Hardware
 - Works under control of STM32 microcontroller
