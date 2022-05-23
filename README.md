@@ -1,7 +1,7 @@
-# Hands-free computer pointing device
+# Hands-free computer pointing device: <p> Engineer's Thesis
 Pointing device for people with mobility disabilities of the upper limbs     
-## Engineer's Thesis
 
+## Abstract
 Main goal was to design a pointing device for people with motor disabilities of the upper limbs, dedicated to be used with personal computers and construction of a functional prototype. Device uses head movement tracking and reads electromyographic voltage from user’s forehead. It is a substitute of generic computer mouse – it has the ability to move cursor, simulate left and right mouse buttons and scroll through pages. With this device, it is possible to handle basic tasks, such as typing address and visiting websites, writing short messages using communicator.
 
 ## Features
@@ -11,6 +11,11 @@ Main goal was to design a pointing device for people with motor disabilities of 
 
 1-minute demonstration
 https://www.youtube.com/watch?v=y53N9A561EY
+
+## What should be improved
+- 'Dry' electrodes tended to move during muscle contraction, which caused high (although easy to detect) EMG signal peaks
+- Electrodes should be pressed pretty firmly to user's forehead, which could be uncomfortable during long periods of device usage
+- There was a constant threshold EMG value defined in program, which was used to determine muscle contraction. Because of this, device had to be often recalibrated. 
 
 ## Model
 
@@ -34,6 +39,10 @@ https://www.youtube.com/watch?v=y53N9A561EY
 - Muscle contraction was successfully recognized, although system was very sensitive to disruptions
 
 
+<img src="images/frontalis.jpg" alt="bot" width="300"/>
+
+_Frontalis muscle was chosen as a action trigger_
+
 <img src="images/sEMG_10s_RAW.jpg" alt="raw EMG" width="700"/>
 
 _EMG signal before processing_
@@ -51,11 +60,6 @@ _PCB Bottom layer_
 <img src="images/pcb_top.png" alt="top" width="300"/>
 
 _PCB Top layer_
-
-## What should be improved
-- 'Dry' electrodes tended to move during muscle contraction, which caused high (although easy to detect) EMG signal peaks
-- Electrodes should be pressed pretty firmly to user's forehead, which could be uncomfortable during long periods of device usage
-- There was a constant threshold EMG value defined in program, which was used to determine muscle contraction. Because of this, device had to be often recalibrated. 
 
 
 
