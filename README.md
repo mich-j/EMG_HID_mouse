@@ -22,10 +22,11 @@ https://www.youtube.com/watch?v=y53N9A561EY
 <img src="images/model.png" alt="3D CAD model" width="700"/>
 
 ## Hardware
-- Works under control of STM32 microcontroller
+- Works under control of STM32L432KCU microcontroller
 - Acts as a HID device after plugging into USB port - classic PC mouse emulation
-- BNO055 IMU sensor for measuring head rotations
+- Bosch BNO055 IMU sensor for measuring head rotations
 - Surface EMG electrodes placed on forehead, connected to a differential amplifier
+- PCB board fits into 3D-printed case
 
 ## Software
 - I2C bus used to communicate between IMU and MCU
@@ -37,7 +38,6 @@ https://www.youtube.com/watch?v=y53N9A561EY
 ## EMG signal processing
 - Root Mean Square was used to smoothen data
 - Muscle contraction was successfully recognized, although system was very sensitive to disruptions
-
 
 <img src="images/frontalis.jpg" alt="bot" width="300"/>
 
