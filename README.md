@@ -27,6 +27,8 @@ https://www.youtube.com/watch?v=y53N9A561EY
 - Bosch BNO055 IMU sensor for measuring head rotations
 - Surface EMG electrodes placed on forehead, connected to a differential amplifier
 - PCB board fits into 3D-printed case
+  
+<img src="images/device_prototype.png" alt="bot" width="500"/>
 
 ## Software
 - I2C bus used to communicate between IMU and MCU
